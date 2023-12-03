@@ -1,2 +1,5 @@
 jekyll new . --force
 bundle exec jekyll serve
+
+bundle add webrick
+bundle exec jekyll serve
