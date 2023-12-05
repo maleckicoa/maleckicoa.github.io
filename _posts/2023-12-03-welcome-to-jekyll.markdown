@@ -1,6 +1,6 @@
 ---
-#layout: post
-title:  "Welcome to !"
+layout: posts
+title:  "Welcome toe !"
 date:   2023-12-03 21:03:36 +0100
 categories: jekyll update
 ---

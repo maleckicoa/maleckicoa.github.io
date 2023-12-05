@@ -1,0 +1,38 @@
+---
+layout: archive
+---
+
+<style type="text/css">
+.greedy-nav .visible-links {font-size:0.8em ;}
+
+.author__avatar { display: table-cell; vertical-align: top; width: auto; height: auto; }
+@media (min-width: 64em) { .author__avatar { display: block; width: auto; height: auto; } }
+.author__avatar img { max-width: 210px; border-radius: 50%; }
+@media (min-width: 64em) { .author__avatar img { padding: 1px; border: 1px solid #f2f3f3; } }
+
+</style>
+
+
+
+
+
+
+
+{{ content }}
+
+<h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts | default: "Recent Posts" }}</h3>
+
+{% if paginator %}
+  {% assign posts = paginator.posts %}
+{% else %}
+  {% assign posts = site.posts %}
+{% endif %}
+
+{% assign entries_layout = page.entries_layout | default: 'list' %}
+<div class="entries-{{ entries_layout }}">
+  {% for post in posts %}
+    {% include archive-single.html type=entries_layout %}
+  {% endfor %}
+</div>
+
+{% include paginator.html %}
