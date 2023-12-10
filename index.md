@@ -4,15 +4,15 @@
 
 layout: home
 author_profile: true
-title: 123
-excerpt: "This post should [...]"
+title: "<br><br>"
+excerpt: "Exploring the transformative power of analytics and insights in the digital age."
 header:
   overlay_image: /assets/images/tropical-header.jpg
   overlay_filter: 0.5 # same as adding an opacity of 0.5 to a black background
-  caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
-  actions:
-    - label: "More Info"
-      url: "https://unsplash.com"
+  caption: "Photo: [freewpheaders.com](https://freewpheaders.com/nature-scenic/water-beaches-headers/)"
+  #actions:
+    #- label: "More Info"
+    #  url: "https://unsplash.com"
       
 ---
 

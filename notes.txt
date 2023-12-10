@@ -1,5 +1,7 @@
 https://www.youtube.com/watch?v=fqFjuX4VZmU&list=PLLAZ4kZ9dFpOPV5C5Ay0pHaa0RJFhcmcB&index=19
 
+https://sketch.io/
+
 jekyll new . --force
 bundle exec jekyll serve
 
@@ -14,3 +16,7 @@ https://github.com/yamanakah/yamanakah.github.io/blob/master/_data/navigation.ym
 
 
 https://mmistakes.github.io/minimal-mistakes/docs/pages/
+
+#3d4144  almost black
+#646769  dark gray
+#6f777d  gray
