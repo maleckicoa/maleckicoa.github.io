@@ -5,7 +5,7 @@
 layout: home
 author_profile: true
 title: "<br><br>"
-excerpt: "Exploring the transformative power of analytics and insights in the digital age."
+excerpt: "A Journal of data-driven Insights"
 header:
   overlay_image: /assets/images/tropical-header.jpg
   overlay_filter: 0.5 # same as adding an opacity of 0.5 to a black background
