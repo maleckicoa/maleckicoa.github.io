@@ -87,12 +87,13 @@ plugins:
 defaults:
   # _posts
   - scope:
-      path: ""
+      path: "_posts"
       type: posts
     values:
-      layout: posts
+      layout: posts 
       author_profile: false
       read_time: true
+      show_date: true
       comments: true
       share: true
       related: true
