@@ -1,36 +1,33 @@
 <style type="text/css">
-    .greedy-nav .visible-links {font-size:0.8em ;}  
-    .greedy-nav a.site-title { margin-left: 0; color:#646769; margin-right: 1rem;}
+    .greedy-nav .visible-links {font-size:0.8em ;}  /* font on the About, Tags, and other nav links*/
+    .greedy-nav a.site-title { margin-left: 0; color:#646769; margin-right: 1rem;} /* Color and spacing on the site name*/
     .greedy-nav a.site-logo { margin-left: 0; margin-right: 1rem; }
     .site-logo img { max-height: 2.5rem; }   /* logo size*/
-    .site-subtitle { display: block; font-size: 0.8em; font-style: italic ; color: #6f777d}
-
+    .site-subtitle { display: block; font-size: 0.8em; font-style: italic ; color: #6f777d} /* Site sub-name*/
     .author__name { margin: 0; }
+    .sidebar.sticky { overflow-y: auto; max-height: calc(100vh - 2em - 2em); width: 25%;} /* Space for the author info*/
+    .archive { margin-top: 1em; margin-bottom: 2em; text-align: justify;} /* alighning the archive container and adding text alignment*/
 
-    .sidebar.sticky { overflow-y: auto; max-height: calc(100vh - 2em - 2em); width: 25%;} 
-    .archive { margin-top: 1em; margin-bottom: 2em;}
+    /* FONT FORMATTING FOR THE WHITE SCRIPT*/
+    .page__lead { font-style: italic; font-family: "Oooh Baby", -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif; font-size: 1.7em; }
 
-    .page__lead { font-style: italic; font-family: "Clarkson Script"-apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif; font-size: 1.25em; }
-
-
+    /* Space for the content / post previews*/
     @media (min-width: 64em) { .archive { float: right; width: calc(100% - 300px); padding-right: 100px; } }
     @media (min-width: 80em) { .archive { width: calc(100% - 400px); padding-right: 200px; } }
-
     @media (min-width: 64em) { .author__name { margin-top: 10px; margin-bottom: 10px; } }
     .sidebar .author__name { font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif; font-size: 1em;color:#646769; }
 
-
-
-    
     .author__avatar { display: table-cell; vertical-align: top; width: auto; height: auto; }
-    @media (min-width: 64em) { .author__avatar { display: block; width: auto; height: auto; } }
+    
+    @media (min-width: 64em) { .author__avatar { display: block; width: auto; height: auto; } } /* Author image size and shape*/
     .author__avatar img { max-width: 7rem; border-radius: 50%; }
     
-    @media (min-width: 64em) { .author__avatar img { padding: 0px; border: 1px solid white; } }
+    @media (min-width: 64em) { .author__avatar img { padding: 0px; border: 1px solid white; } } /* Author image padding*/
     
     @media (min-width: 64em) { .sidebar { float: left; width: calc(200px - 1em); opacity: 1; -webkit-transition: opacity 0.2s ease-in-out; transition: opacity 0.2s ease-in-out; } }
-    .sidebar:hover { opacity: 1; }
+    .sidebar:hover { opacity: 1; } /* Author image turn-off opacity*/
     
+    /*not sure what this does*/
     .page__hero-caption { position: absolute; bottom: 0; right: 0; margin: 0 auto; padding: 2px 5px; color: #fff; font-family: Georgia, Times, serif; font-size: 0.4em; background: transparent; text-align: right; z-index: 5; opacity: 0.5; border-radius: 4px 0 0 0; }
     @media (min-width: 64em) { .page__hero-caption { padding: 1px 2px; } }
     .page__hero-caption a { color: #fff; text-decoration: none; }

@@ -1,21 +1,15 @@
-https://www.youtube.com/watch?v=fqFjuX4VZmU&list=PLLAZ4kZ9dFpOPV5C5Ay0pHaa0RJFhcmcB&index=19
-
-https://sketch.io/
-
 jekyll new . --force
 bundle exec jekyll serve
-
 bundle add webrick
 bundle exec jekyll serve
 
 
+https://www.youtube.com/watch?v=fqFjuX4VZmU&list=PLLAZ4kZ9dFpOPV5C5Ay0pHaa0RJFhcmcB&index=19
+https://sketch.io/
 https://yamanakah.github.io/    - website
-
-
 https://github.com/yamanakah/yamanakah.github.io/blob/master/_data/navigation.yml   - git directory
-
-
 https://mmistakes.github.io/minimal-mistakes/docs/pages/
+
 
 #3d4144  almost black
 #646769  dark gray
@@ -23,16 +17,9 @@ https://mmistakes.github.io/minimal-mistakes/docs/pages/
 
 ######### TO do
 
-line 1062
 
-.archive { width:70% ;margin-top: 1em; margin-bottom: 2em; }
-@media (min-width: 64em) { .archive { float: right; width: calc(100% - 100px); padding-right: 100px; } }
-@media (min-width: 80em) { .archive { width: calc(100% -  400px); padding-right: 400px; } }
-
-line 1162
-  .sidebar.sticky { width:30%; overflow-y: auto; /* calculate height of nav list viewport height - nav height - masthead x-padding
-*/ max-height: calc(100vh - 2em - 2em); } }
-
--White letters
-
--description
+- White letter statement?     OK
+- Set dates on the Pages  -> change the layout in the front matter of the page
+- Profile description
+- About page
+- Profile photo - change background
