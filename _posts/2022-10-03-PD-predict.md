@@ -1,6 +1,6 @@
 ---
 layout: posts
-date: 2021-10-03
+date: 2022-10-03
 title:  "How Banks Decide on Your Loan <br> [Default Probability Modeling] "
 permalink:  /Default_Probability_Modeling/
 categories:
@@ -40,7 +40,7 @@ The table presented above showcases an actual dataset from a fintech firm that o
 
 <span style=" font-size: 0.7em; font-weight: bold; font-style: italic; text-align: centre"> Correlation matrix of the Dataset features</span>
 
-![correlation_matrix](/assets/images/2021-10-03-PD-predict/correlation_matrix.png)
+![correlation_matrix](/assets/images/2022-10-03-PD-predict/correlation_matrix.png)
 
 
 A critical information of this dataset is the "default" column, where each entry is either 0 or 1, indicating whether a customer has defaulted on their loan. This information is crucial for training the algorithm, and data records lacking this information can not be processed by the model. Another notable characteristic of this dataset is its sparsity, due to the frequent occurrence of missing values in loan applications.
@@ -69,11 +69,11 @@ Additionally, WoE encoding treats missing values as distinct categorical entitie
 
 The column WOE indicates a single feature's predictive capability concerning its independent feature. When a category or bin within a feature displays a higher ratio of events relative to non-events, it yields a higher WoE value. High value of WoE suggests that the feature’s particular category or bin effectively discriminates between events and non-events. The formula to calculate the Weight-of-Evidence for any feature is:
 
-<img src= "/assets/images/2021-10-03-PD-predict/WOE_formula.png" alt="drawing" width="300"/>
+<img src= "/assets/images/2022-10-03-PD-predict/WOE_formula.png" alt="drawing" width="300"/>
 
 Lastly, it's important to mention that a feature should typically meet a minimum threshold of information value to be included in the model otherwise it may simply add noise. The table's final column displays the aggregated Information Value (IV), where we focus on the sum of IV across unique feature values. Generally, any feature with an aggregated IV below 0.02 is deemed non-significant. The aggregated IV statistic is calculated as follows:
 
-![IV](/assets/images/2021-10-03-PD-predict/IV.png)
+![IV](/assets/images/2022-10-03-PD-predict/IV.png)
 
 <br>
 After applying the WOE encoding, our dataset looks like this:
@@ -176,9 +176,9 @@ Executing the champion model on a batch of fresh loan applications would produce
 
 As anticipated, the default probabilities vary between 0 and 1, with just a single loan application showing a default probability above 0.5. In a practical scenario, this would mean that the loan with ID 676 is likely to be denied approval.
 
-<!--img src= "/assets/images/2021-10-03-PD-predict/shap_importance.png" alt="drawing" width="300"/-->
+<!--img src= "/assets/images/2022-10-03-PD-predict/shap_importance.png" alt="drawing" width="300"/-->
 
 
-Dear reader, this brings us to the end of our journey through this post. I hope you've found it enlightening and that it has given you a deeper understanding of the mechanics behind loan applications. Instead of a bank official reviewing your documents, it's quite probable that a sophisticated algorithm in the bank's infrastructure is making the decision about your loan approval. For those interested in delving deeper into this subject, I encourage you to visit my [git project](https://github.com/maleckicoa/PD_prediction). There you can explore the entire dataset, examine the code implementation in detail, or even download the model as a Docker application.
+Dear reader, we have reached the end of this post. I hope you've found it enlightening and that it has given you a deeper understanding of the mechanics behind loan applications. Instead of a bank official reviewing your documents, it's quite probable that a sophisticated algorithm in the bank's infrastructure is making the decision about your loan approval. For those interested in delving deeper into this subject, I encourage you to visit my [git project](https://github.com/maleckicoa/PD_prediction). There you can explore the entire dataset, examine the code implementation in detail, or even download the model as a Docker application.
 
 Thank you for reading and I wish you a 0% default probability!   
