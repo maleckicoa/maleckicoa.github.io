@@ -19,7 +19,8 @@ https://mmistakes.github.io/minimal-mistakes/docs/pages/
 
 
 - White letter statement?     OK
-- Set dates on the Pages  -> change the layout in the front matter of the page
+- Set dates on the Pages  -> change the layout in the front matter of the page  OK
 - Profile description
 - About page
 - Profile photo - change background
+- Add comments to pages?
