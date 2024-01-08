@@ -1,7 +1,7 @@
 ---
 layout: posts
 date:   2021-09-19
-title:  "Implement Principal Components to measure Financial Crisis Impact"
+title: "Implement Principal Components to measure Financial Crisis Impact"
 permalink:  /PCA_for_financial_crisis_impact/
 categories: 
 - Economy
@@ -106,5 +106,3 @@ It's crucial to note, that the reliability of the FSI metric is closely tied to 
 Dear reader, we have arrived at the end of this post. We explored the use of Principal Component Analysis's remarkable capabilities to create a detailed yet adaptable metric for gauging financial stress. We have also seen how thanks to the nature of PCA, the FSI can be decomposed into its constituents, providing us with a better understanding of the drivers behind financial crises. 
 
 If this post has sparked your curiosity about the Financial Stress Index, I recommend reading more about the FSI topic [here](https://www.financialresearch.gov/financial-stress-index/). Additionally, for those interested in the dataset or in poking around the code I used to create the FSI metric and the eye-catching visualizations, please feel free to check out my [git project](https://github.com/maleckicoa/FSI_Covid).
-
- t
