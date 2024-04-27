@@ -1,5 +1,5 @@
-jekyll new . --force
-bundle exec jekyll serve
+jekyll new . --force           # this is to crate the "site" all the default jekyll docs will be made in our folder
+bundle exec jekyll serve       # start the webite on localhost
 bundle add webrick
 bundle exec jekyll serve
 
