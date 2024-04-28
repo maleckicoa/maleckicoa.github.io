@@ -19,9 +19,12 @@
 
 
     /* Text Alignment of the post*/
-    .archive { text-align: justify; text-align-last: left;}
+    .archive { text-align: left; text-align-last: left;}
 
-    .page__title { text-align: justify;} 
+    /* Set the Title size an position within the post*/
+    .page__title { margin-top: 50px; line-height: 1; }
+    @media (max-width: 480px) {.page__title { text-align: left; font-size: 1.2em;}}
+
 
     /* class center to center images*/
     .center {

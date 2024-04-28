@@ -8,7 +8,8 @@ categories:
 tags:
 - Data
 ---
-<br><br>
+
+<br>
 If you are an ETF investor like myself, you probably inquiried about the performance of your favorite ETF before making a purchase. It is likely that your investment decision was to some extent influenced by the published rate of return — for example, QQQ at 9.44% per annum. Hopefully, besides the return, you also considered the fund's risk often expressed in terms of beta or volatility. But what does the rate of return tell us? In particular, what do we mean when we say X% per annum?
 
 > How informative is the conventional rate of return?
@@ -48,6 +49,9 @@ One important aspect to remember is that the 1-year return rate is not meant to 
 After defining the implementation, the next step is to calculate this metric across a broad range of ETFs and various holding periods. The goal is to conduct a thorough comparison and obtain a clear indication of which ETFs have shown best historical performance. To achieve this, I processed a pool of approximately 21,000 ETF tickers available on the [internet](https://github.com/MichaelDz6/Yahoo_Finance_ETFs_Web_Scraper/blob/master/ETFs_Tickers.csv), from which around 5,500 were still active and had adequate and current data on Yahoo Finance.
 
 Below is a series of ordered boxplots that summarize the performance of ETFs across holding periods of 1, 2, 5, 7, and 10 years. The plots on the left display the highest performance in terms of median return. The legend includes a description for each ETF, as available from the Yahoo Finance API, as well as a cumulative median return over the holding period (for example, the SOXX return of 9.8 for a 10-year holding period, means that the median return for this ETF over a 10 year period is $9.8 for every 1$ invested)
+<br><br><br>
+<span style=" font-size: 0.9em; font-weight: bold; font-style: italic; text-align: centre"> 
+ETF performance report - output from the [ETF_compare](https://github.com/maleckicoa/ETF_compare) tool </span>
 
 <img src= "/assets/images/2024-04-15-ETF-compare/boxplots.png" >
 
